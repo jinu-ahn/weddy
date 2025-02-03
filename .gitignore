@@ -1,0 +1,52 @@
+node_modules
+
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+/backend/.idea
+/backend/.idea/modules
+*.xml
+.idea/
+workspace.xml
+node_modules/
+.env
+backend/user/src/main/resources/keystore/service-account.json
+backend/user/src/main/resources/keystore/service-account.json
+backend/user/src/main/resources/keystore/service-account.json
+service-account.json
+firebase-messaging-sw.js
